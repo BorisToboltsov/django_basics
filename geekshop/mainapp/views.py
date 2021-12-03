@@ -8,7 +8,7 @@ from mainapp.models import Product, ProductCategory
 def index(request):
     context = {'title': 'магазин',
                'products': Product.objects.all()[:4]
-    }
+               }
     return render(request, "mainapp/index.html", context)
 
 
@@ -23,6 +23,3 @@ def products(request, pk=None):
         'title': 'продукты'
     }
     return render(request, "mainapp/products.html", context)
-
-
-
