@@ -3,5 +3,7 @@
 *.pot
 *.pyc
 
-/venv/
+venv/
 .idea/
+.env/
+__pycache__/
