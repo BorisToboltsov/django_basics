@@ -5,7 +5,8 @@
             домой</a>
     </li>
     <li>
-        <a href="{% url 'products:products' %}" {% if request.resolver_match.namespace == 'products' %}class="active"{% endif %}>
+        <a href="{% url 'products:products' %}"
+           {% if request.resolver_match.namespace == 'products' %}class="active"{% endif %}>
             продукты</a>
     </li>
     <li>
@@ -13,6 +14,9 @@
             контакты</a>
     </li>
 
+    {% if user.is_superuser %}
+        <li><a href="{% url 'adminapp:user_list' %}">Администрирование</a></li>
+    {% endif %}
     {% if user.is_authenticated %}
         <li><a href="{% url 'auth:edit' %}">{{ user.first_name|default:"Пользователь" }}</a></li>
         <li><a href="{% url 'auth:logout' %}">Выйти</a></li>
