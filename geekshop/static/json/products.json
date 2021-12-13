@@ -1,0 +1,65 @@
+[
+  {
+    "category": "дом",
+    "name": "Кухонный стул",
+    "image": "products/product-1.jpg",
+    "price": 150,
+    "quantity": 5
+  },
+    {
+    "category": "дом",
+    "name": "Кухонный стол",
+    "image": "products/product-2.jpg",
+    "price": 250,
+    "quantity": 5
+  },
+    {
+    "category": "дом",
+    "name": "Кресло",
+    "image": "products/product-3.jpg",
+    "price": 250,
+    "quantity": 10
+  },
+    {
+    "category": "офис",
+    "name": "Кресло руководителя",
+    "image": "products/product-4.jpg",
+    "price": 500,
+    "quantity": 10
+  },
+    {
+    "category": "офис",
+    "name": "Стол руководителя",
+    "image": "products/product-11.jpg",
+    "price": 800,
+    "quantity": 10
+  },
+    {
+    "category": "классика",
+    "name": "Кровать",
+    "image": "products/product-21.jpg",
+    "price": 600,
+    "quantity": 7
+  },
+    {
+    "category": "классика",
+    "name": "Стул",
+    "image": "products/product-31.jpg",
+    "price": 350,
+    "quantity": 8
+  },
+    {
+    "category": "модерн",
+    "name": "Стул в стиле модерн",
+    "image": "products/product-41.jpg",
+    "price": 1000,
+    "quantity": 21
+  },
+    {
+    "category": "модерн",
+    "name": "Стол в стиле модерн",
+    "image": "products/product-51.jpg",
+    "price": 1500,
+    "quantity": 15
+  }
+]
